@@ -1,0 +1,36 @@
+/*trang học viên*/
+.nav-stacked{
+	margin-top: 20px;
+}
+.nav-stacked>li+li { 
+margin-top: 0px;    
+margin-left: 0; 
+border-bottom:1px solid #dadada;    
+border-left:1px solid #dadada;  
+border-right:1px solid #dadada;
+
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {  
+color: #fff;    
+background-color: #428bca;  
+font-weight:bold;   
+font-size:16px;
+border: 3px;
+}
+.jumbotron1{
+	border: 2px;
+	background:#fff;
+}
+#marq
+{
+	border: blue solid ;
+	font-color:red;
+	text-align: center;
+	background: #ececf9;
+	border: 20px;
+}
+
+.jumbotron2{
+	border: 2px;
+	background: #ececf9;
+}

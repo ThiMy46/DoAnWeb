@@ -1,0 +1,164 @@
+@media only screen and (max-width: 800px){
+  #hide{
+      display: none;
+  }
+} 
+@media only screen and (min-width: 800px){
+  #show{
+      display: none;
+  }
+} 
+
+.navbar, .id-dropdown
+{
+    background-color: #3BA854;
+}
+
+#main-menu a{
+    color: white;
+    font-size: 20px;
+    
+    font-weight: bold;
+}
+
+
+#main-menu a:hover{
+     background-color: #288655;
+}
+#lgright a {
+    font-size: 16px ;
+    font-family:inherit; 
+}
+#lgright a:hover{
+     background-color: #3BA854;
+     color: white;
+    text-decoration:underline;
+}
+#tieude{
+    color: #04C63B;
+}
+.btn_tc{
+    background-color:  #F4863F;
+    color: aliceblue;
+    border-radius: 3px;
+    font-size: 35px;
+    width: 250px;
+    height: 100px;
+    transition: box-shadow 0.5s; 
+}
+.btn_tc:hover{
+   /* border: 5px solid #575757;*/
+    background-color: #F4691C;
+    color: aliceblue;
+    box-shadow: 5px 0px 40px rgba(0,0,0,0.7);
+    
+}
+
+.panel{
+    
+    /*width: 300px;
+    height: 450px;*/
+    transition: box-shadow 0.5s; 
+}
+.panel:hover{
+    
+    box-shadow: 5px 0px 40px rgba(0,0,0,0.7);
+    
+}
+
+/*khÃ³a há»�c*/
+#thong-tin {
+    color: black;
+}
+
+
+        .sticky{
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            
+        }
+
+#errouser, #erropass, #errorHoTen, #errorngaysinh, #errorSDT, #errorDiaChi, #erroremail     , #errorMa, #errorTrinhDo, #errorChuyenMon{
+    color: red;
+    
+    
+}
+#tb-dangky p{
+font-weight: bold;
+    width: 100px;
+}
+#tb-dangky tr{
+    height: 50px;
+}
+#lienhe{
+     position:fixed;
+    right: 10px;
+    bottom: 150px;
+}
+
+.footer{
+    background-color:#575757;
+    color:#FFF;
+    padding-left:0;
+    line-height:26px;
+    
+    padding-top:15px;
+    font-size:15px;
+    
+  
+}
+.footer a{
+    background-color:#575757;
+    color:#F49620;
+ 
+    
+  
+}
+.panel-footer h3, .panel-footer p{
+    color: #F46401;
+    
+}
+.panel-footer a:hover{
+    text-decoration-color: #F46401;
+}
+.tenfooter{
+    font-size: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    margin-bottom: 3px;
+}
+
+ .modal-header, h4, .close {
+      background-color: #755139;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+.panel-heading
+{
+    height: 120px;
+}
+
+/*ThÃ´ng bÃ¡o*/
+.khoang-cach{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.line{
+    width: 100%;
+    border-bottom: 1px dashed #999999;
+    margin: 5px;
+    clear: both;
+}
+        
+.col-md-12 .col-xs-5 img {
+    padding-top: 15px;
+}
+        /*
